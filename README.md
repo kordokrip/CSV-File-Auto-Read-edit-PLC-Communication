@@ -11,3 +11,10 @@ Program operation scenario
 2. After executing the program, the thread repeats every second and automatically reads and parses certain characters from the .CSV file.
 3. It automatically reads and writes data by communicating with PLC and TCP / IP by converting the .CSV data that has been read automatically into bit. (It automatically executes repeatedly using a thread)
 4. Communicates with Mitsubishi Q series PLC and the program keeps checking the data by thread.
+
+Development environment
+
+- Visual Studio 2017
+- Mitsubishi MELSOFT GX Work2
+- Mitsubishi MX Component 4
+- Operating system: Windows 10 64bit
